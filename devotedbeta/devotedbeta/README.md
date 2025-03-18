@@ -7,8 +7,9 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 To start a local development server, run:
 
 ```bash
-ng serve
+ng serve --no-hmr
 ```
+(Editor's Note: The tutorial I was using for this project was outdated, so you need to add the --no-hmr flag for it to run properly)
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
